@@ -24,7 +24,7 @@ export default function KontakPage() {
                 <Mail className="text-orange-600 w-6 h-6" />
               </div>
               <h3 className="font-bold text-slate-800 mb-2">Email Kami</h3>
-              <p className="text-sm text-gray-500">halo@dapurkueh.com</p>
+              <p className="text-sm text-gray-500">mfajarsidik64@gmail.com</p>
             </div>
 
             <div className="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100">
@@ -32,7 +32,7 @@ export default function KontakPage() {
                 <Phone className="text-blue-600 w-6 h-6" />
               </div>
               <h3 className="font-bold text-slate-800 mb-2">WhatsApp</h3>
-              <p className="text-sm text-gray-500">+62 812 3456 7890</p>
+              <p className="text-sm text-gray-500">+62 857 4112 9749</p>
             </div>
 
             <div className="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100">

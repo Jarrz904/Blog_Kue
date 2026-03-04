@@ -1,7 +1,9 @@
 import { Recipe } from "@/types";
 
 export const recipes: Recipe[] = [
-  // --- TRADISIONAL (5) ---
+  // ==========================================
+  // --- KATEGORI 1: TRADISIONAL (6 RESEP) ---
+  // ==========================================
   {
     id: 't1',
     title: 'Lapis Legit Premium',
@@ -10,6 +12,7 @@ export const recipes: Recipe[] = [
     category: 'Tradisional',
     prepTime: '120 menit',
     difficulty: 'Sulit',
+    // Gambar layer cake/kue lapis
     image: 'https://images.unsplash.com/photo-1589119908995-c6837fa14848?q=80&w=800',
     ingredients: ['30 butir kuning telur', '500g mentega premium', '200g gula halus', '1 sdm bumbu spekuk'],
     instructions: [
@@ -28,6 +31,7 @@ export const recipes: Recipe[] = [
     category: 'Tradisional',
     prepTime: '40 menit',
     difficulty: 'Mudah',
+    // Gambar kue hijau baluran kelapa
     image: 'https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?q=80&w=800',
     ingredients: ['250g tepung ketan', 'Gula aren sisir', 'Air pandan', 'Kelapa parut'],
     instructions: [
@@ -46,6 +50,7 @@ export const recipes: Recipe[] = [
     category: 'Tradisional',
     prepTime: '180 menit',
     difficulty: 'Sedang',
+    // Gambar kue kuning tekstur berongga/sarang
     image: 'https://images.unsplash.com/photo-1590005024862-6b67679a29fb?q=80&w=800', 
     ingredients: ['300g tepung sagu', '400ml santan kental', '10 kuning telur', 'Ragi instan'],
     instructions: [
@@ -64,6 +69,7 @@ export const recipes: Recipe[] = [
     category: 'Tradisional',
     prepTime: '30 menit',
     difficulty: 'Mudah',
+    // Gambar kue goreng kecoklatan (mirip tekstur cucur)
     image: 'https://images.unsplash.com/photo-1621236300298-2b9bf369657b?q=80&w=800',
     ingredients: ['250g tepung beras', 'Gula merah cair', 'Sedikit garam', 'Air'],
     instructions: [
@@ -82,6 +88,7 @@ export const recipes: Recipe[] = [
     category: 'Tradisional',
     prepTime: '45 menit',
     difficulty: 'Mudah',
+    // Gambar pancake basah tradisional
     image: 'https://images.unsplash.com/photo-1628120302306-03f47c22759f?q=80&w=800',
     ingredients: ['Tepung terigu', 'Santan', 'Ragi', 'Gula merah'],
     instructions: [
@@ -92,8 +99,29 @@ export const recipes: Recipe[] = [
     ],
     isFeatured: false
   },
+  {
+    id: 't6',
+    title: 'Onde-Onde Wijen Isi Kacang Hijau',
+    slug: 'onde-onde',
+    description: 'Jajanan bulat balutan biji wijen yang kenyal dengan isian kacang hijau yang manis dan gurih.',
+    category: 'Tradisional',
+    prepTime: '60 menit',
+    difficulty: 'Sedang',
+    // Gambar bola-bola wijen (sesame balls)
+    image: 'https://images.unsplash.com/photo-1622979261358-86d302bc657b?q=80&w=800',
+    ingredients: ['Tepung ketan', 'Kacang hijau kupas', 'Biji wijen', 'Gula pasir'],
+    instructions: [
+      'Kukus kacang hijau dan haluskan bersama gula.',
+      'Buat adonan kulit dari tepung ketan.',
+      'Isi kulit dengan kacang hijau, bulatkan sempurna.',
+      'Gulingkan di atas wijen lalu goreng dengan api kecil.'
+    ],
+    isFeatured: false
+  },
 
-  // --- MODERN (5) ---
+  // ==========================================
+  // --- KATEGORI 2: MODERN (6 RESEP) ---
+  // ==========================================
   {
     id: 'm1',
     title: 'Japanese Souffle Pancake',
@@ -102,6 +130,7 @@ export const recipes: Recipe[] = [
     category: 'Modern',
     prepTime: '30 menit',
     difficulty: 'Sedang',
+    // Gambar souffle pancake yang tebal dan fluffy
     image: 'https://images.unsplash.com/photo-1598214886806-c87b84b7078b?q=80&w=800',
     ingredients: ['2 butir telur', '30ml susu', '35g tepung', '25g gula'],
     instructions: [
@@ -120,6 +149,7 @@ export const recipes: Recipe[] = [
     category: 'Modern',
     prepTime: '120 menit',
     difficulty: 'Sulit',
+    // Gambar pastry lumer cokelat
     image: 'https://images.unsplash.com/photo-1639667851375-47e45404983a?q=80&w=800',
     ingredients: ['Danish pastry sheet', 'Dark chocolate', 'Whipping cream'],
     instructions: [
@@ -138,6 +168,7 @@ export const recipes: Recipe[] = [
     category: 'Modern',
     prepTime: '20 menit',
     difficulty: 'Mudah',
+    // Gambar dessert bites / mochi kecil
     image: 'https://images.unsplash.com/photo-1582201942988-13e60e4556ee?q=80&w=800',
     ingredients: ['Tepung ketan', 'Susu cair', 'Oreo', 'Bubuk cokelat'],
     instructions: [
@@ -156,6 +187,7 @@ export const recipes: Recipe[] = [
     category: 'Modern',
     prepTime: '60 menit',
     difficulty: 'Sedang',
+    // Gambar roti dengan taburan garlic dan keju
     image: 'https://images.unsplash.com/photo-1606131731446-5568d87113aa?q=80&w=800',
     ingredients: ['Roti Bun', 'Cream cheese', 'Bawang putih', 'Parsley'],
     instructions: [
@@ -174,6 +206,7 @@ export const recipes: Recipe[] = [
     category: 'Modern',
     prepTime: '90 menit',
     difficulty: 'Sulit',
+    // Gambar layer crepe matcha
     image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800',
     ingredients: ['Bubuk Matcha', 'Tepung terigu', 'Telur', 'Whipping cream'],
     instructions: [
@@ -184,8 +217,29 @@ export const recipes: Recipe[] = [
     ],
     isFeatured: false
   },
+  {
+    id: 'm6',
+    title: 'Basque Burnt Cheesecake',
+    slug: 'basque-burnt-cheesecake',
+    description: 'Cheesecake asal Spanyol dengan tekstur lembut di dalam dan sensasi "gosong" karamel di luar.',
+    category: 'Modern',
+    prepTime: '50 menit',
+    difficulty: 'Mudah',
+    // Gambar basque burnt cheesecake asli
+    image: 'https://images.unsplash.com/photo-1601297594589-d5c2288019fb?q=80&w=800',
+    ingredients: ['Cream cheese', 'Heavy cream', 'Gula pasir', 'Telur', 'Tepung terigu'],
+    instructions: [
+      'Kocok cream cheese dan gula hingga sangat lumer.',
+      'Masukkan telur satu per satu, aduk rata.',
+      'Tuang heavy cream dan sedikit tepung.',
+      'Panggang suhu tinggi 220°C agar permukaannya gosong eksotis.'
+    ],
+    isFeatured: true
+  },
 
-  // --- ROTI (5) ---
+  // ==========================================
+  // --- KATEGORI 3: ROTI (6 RESEP) ---
+  // ==========================================
   {
     id: 'r1',
     title: 'Artisan Sourdough Bread',
@@ -194,6 +248,7 @@ export const recipes: Recipe[] = [
     category: 'Roti',
     prepTime: '24 jam',
     difficulty: 'Sulit',
+    // Gambar artisan sourdough klasik
     image: 'https://images.unsplash.com/photo-1549931319-a545dcf3bc73?q=80&w=800',
     ingredients: ['Tepung protein tinggi', 'Air', 'Garam', 'Sourdough starter'],
     instructions: [
@@ -212,6 +267,7 @@ export const recipes: Recipe[] = [
     category: 'Roti',
     prepTime: '120 menit',
     difficulty: 'Sedang',
+    // Gambar roti tawar susu jepang putih
     image: 'https://images.unsplash.com/photo-1598373182133-52452f7691ef?q=80&w=800',
     ingredients: ['Tepung terigu', 'Susu cair', 'Mentega', 'Ragi instan'],
     instructions: [
@@ -230,6 +286,7 @@ export const recipes: Recipe[] = [
     category: 'Roti',
     prepTime: '180 menit',
     difficulty: 'Mudah',
+    // Gambar roti focaccia otentik
     image: 'https://images.unsplash.com/photo-1568254183919-78a4f43a2877?q=80&w=800',
     ingredients: ['Tepung terigu', 'Olive oil', 'Rosemary', 'Garam laut'],
     instructions: [
@@ -248,6 +305,7 @@ export const recipes: Recipe[] = [
     category: 'Roti',
     prepTime: '90 menit',
     difficulty: 'Sedang',
+    // Gambar cinnamon roll yang dilumuri frosting
     image: 'https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=800',
     ingredients: ['Tepung terigu', 'Kayu manis bubuk', 'Gula palem', 'Cream cheese'],
     instructions: [
@@ -266,6 +324,7 @@ export const recipes: Recipe[] = [
     category: 'Roti',
     prepTime: '120 menit',
     difficulty: 'Sedang',
+    // Gambar setumpuk bagel klasik
     image: 'https://images.unsplash.com/photo-1533243166412-8820f4c08466?q=80&w=800',
     ingredients: ['Tepung protein tinggi', 'Blueberry kering', 'Ragi', 'Madu'],
     instructions: [
@@ -276,8 +335,29 @@ export const recipes: Recipe[] = [
     ],
     isFeatured: false
   },
+  {
+    id: 'r6',
+    title: 'Classic Butter Croissant',
+    slug: 'butter-croissant',
+    description: 'Pastri asal Prancis yang sangat renyah di luar, berongga di dalam, dan sangat wangi mentega.',
+    category: 'Roti',
+    prepTime: '48 jam',
+    difficulty: 'Sulit',
+    // Gambar croissant mentega berserat
+    image: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800',
+    ingredients: ['Tepung protein tinggi', 'Mentega dingin lipat (Korsvet)', 'Susu cair', 'Ragi', 'Gula'],
+    instructions: [
+      'Buat adonan dasar roti dan simpan di kulkas seharian.',
+      'Lakukan teknik laminasi (lipat mentega ke dalam adonan) beberapa kali.',
+      'Gilas tipis lalu potong membentuk segitiga.',
+      'Gulung lalu panggang suhu tinggi hingga mengembang lapis demi lapis.'
+    ],
+    isFeatured: true
+  },
 
-  // --- KUE KERING (5) ---
+  // ==========================================
+  // --- KATEGORI 4: KUE KERING (6 RESEP) ---
+  // ==========================================
   {
     id: 'k1',
     title: 'Nastar Klasik Wisman',
@@ -286,6 +366,7 @@ export const recipes: Recipe[] = [
     category: 'Kue Kering',
     prepTime: '60 menit',
     difficulty: 'Mudah',
+    // Gambar nastar / tartlet
     image: 'https://images.unsplash.com/photo-1615484477201-9f4953340fab?q=80&w=800',
     ingredients: ['Mentega Wisman', 'Tepung terigu', 'Selai nanas', 'Kuning telur'],
     instructions: [
@@ -304,6 +385,7 @@ export const recipes: Recipe[] = [
     category: 'Kue Kering',
     prepTime: '60 menit',
     difficulty: 'Mudah',
+    // Gambar kastengel (cheese sticks) 
     image: 'https://images.unsplash.com/photo-1519915028121-7d3463d20b13?q=80&w=800',
     ingredients: ['Keju Edam', 'Keju Cheddar', 'Mentega', 'Tepung terigu'],
     instructions: [
@@ -322,6 +404,7 @@ export const recipes: Recipe[] = [
     category: 'Kue Kering',
     prepTime: '30 menit',
     difficulty: 'Mudah',
+    // Gambar chocochips lumer cokelat ganda
     image: 'https://images.unsplash.com/photo-1499636136210-654254a39491?q=80&w=800',
     ingredients: ['Bubuk kakao', 'Choco chips', 'Gula palem', 'Butter'],
     instructions: [
@@ -340,6 +423,7 @@ export const recipes: Recipe[] = [
     category: 'Kue Kering',
     prepTime: '120 menit',
     difficulty: 'Sulit',
+    // Gambar tumpukan macaron estetik
     image: 'https://images.unsplash.com/photo-1569864358642-9d161970268c?q=80&w=800',
     ingredients: ['Tepung Almond', 'Putih telur', 'Icing sugar', 'Pewarna'],
     instructions: [
@@ -358,7 +442,8 @@ export const recipes: Recipe[] = [
     category: 'Kue Kering',
     prepTime: '45 menit',
     difficulty: 'Mudah',
-    image: 'https://images.unsplash.com/photo-1628120302306-03f47c22759f?q=80&w=800',
+    // Gambar kue renyah melengkung/lonjong
+    image: 'https://images.unsplash.com/photo-1496116218417-1f9f257d0f12?q=80&w=800',
     ingredients: ['Putih telur', 'Mentega', 'Tepung terigu', 'Keju parut'],
     instructions: [
       'Kocok mentega dan gula hingga putih.',
@@ -368,8 +453,29 @@ export const recipes: Recipe[] = [
     ],
     isFeatured: false
   },
+  {
+    id: 'k6',
+    title: 'Kue Putri Salju',
+    slug: 'putri-salju',
+    description: 'Kue kering dengan isian kacang cincang halus yang diselimuti balutan gula halus yang dingin di mulut.',
+    category: 'Kue Kering',
+    prepTime: '50 menit',
+    difficulty: 'Mudah',
+    // Gambar kue bersalju/putih
+    image: 'https://images.unsplash.com/photo-1512224527962-d277dd626fb3?q=80&w=800',
+    ingredients: ['Tepung terigu', 'Mentega', 'Kacang mede cincang sangrai', 'Gula donat (gula dingin)'],
+    instructions: [
+      'Campur adonan mentega, terigu, dan mede cincang.',
+      'Cetak bentuk bulan sabit.',
+      'Panggang hingga kering dan matang.',
+      'Selagi masih sedikit hangat, gulingkan kue langsung ke dalam gula dingin.'
+    ],
+    isFeatured: true
+  },
 
-  // --- DESSERT (5) ---
+  // ==========================================
+  // --- KATEGORI 5: DESSERT (6 RESEP) ---
+  // ==========================================
   {
     id: 'd1',
     title: 'Chocolate Lava Cake',
@@ -378,6 +484,7 @@ export const recipes: Recipe[] = [
     category: 'Dessert',
     prepTime: '20 menit',
     difficulty: 'Mudah',
+    // Gambar lelehan lava cake cokelat gelap
     image: 'https://images.unsplash.com/photo-1616031037011-087000171abe?q=80&w=800',
     ingredients: ['Dark chocolate', 'Mentega', 'Telur', 'Tepung'],
     instructions: [
@@ -396,6 +503,7 @@ export const recipes: Recipe[] = [
     category: 'Dessert',
     prepTime: '45 menit',
     difficulty: 'Sedang',
+    // Gambar tiramisu dengan taburan kopi
     image: 'https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=800',
     ingredients: ['Mascarpone', 'Kopi Espresso', 'Ladyfingers', 'Bubuk cokelat'],
     instructions: [
@@ -414,6 +522,7 @@ export const recipes: Recipe[] = [
     category: 'Dessert',
     prepTime: '15 menit',
     difficulty: 'Mudah',
+    // Gambar puding putih dengan mangga/potongan kuning
     image: 'https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=800',
     ingredients: ['Heavy cream', 'Gelatin', 'Gula', 'Mangga segar'],
     instructions: [
@@ -432,6 +541,7 @@ export const recipes: Recipe[] = [
     category: 'Dessert',
     prepTime: '60 menit',
     difficulty: 'Sedang',
+    // Gambar tart pastry bulat dengan buah-buahan 
     image: 'https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?q=80&w=800',
     ingredients: ['Tepung terigu', 'Mentega dingin', 'Vla vanilla', 'Buah segar'],
     instructions: [
@@ -450,6 +560,7 @@ export const recipes: Recipe[] = [
     category: 'Dessert',
     prepTime: '60 menit',
     difficulty: 'Sedang',
+    // Gambar pastry eclair cokelat
     image: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=800',
     ingredients: ['Adonan choux', 'Vla vanilla', 'Dark chocolate glaze'],
     instructions: [
@@ -460,8 +571,29 @@ export const recipes: Recipe[] = [
     ],
     isFeatured: false
   },
+  {
+    id: 'd6',
+    title: 'Vanilla Crème Brûlée',
+    slug: 'creme-brulee',
+    description: 'Custard vanilla creamy dengan lapisan gula karamel tipis dan renyah di permukaannya.',
+    category: 'Dessert',
+    prepTime: '60 menit',
+    difficulty: 'Sedang',
+    // Gambar wadah kecil (ramekin) dengan karamel bakar
+    image: 'https://images.unsplash.com/photo-1470124122819-0e43888582b9?q=80&w=800',
+    ingredients: ['Heavy cream', 'Kuning telur', 'Ekstrak vanilla', 'Gula pasir'],
+    instructions: [
+      'Panaskan krim bersama vanilla, lalu aduk perlahan dengan kuning telur.',
+      'Tuang adonan ke mangkuk kecil (ramekin).',
+      'Panggang dengan cara direndam setengah tinggi air panas.',
+      'Taburi gula di atasnya saat disajikan, lalu bakar menggunakan kitchen torch.'
+    ],
+    isFeatured: true
+  },
 
-  // --- CAKE (5) ---
+  // ==========================================
+  // --- KATEGORI 6: CAKE (6 RESEP) ---
+  // ==========================================
   {
     id: 'c1',
     title: 'Red Velvet Cake',
@@ -470,6 +602,7 @@ export const recipes: Recipe[] = [
     category: 'Cake',
     prepTime: '90 menit',
     difficulty: 'Sedang',
+    // Gambar slice kue red velvet klasik
     image: 'https://images.unsplash.com/photo-1586788280742-d007462d5139?q=80&w=800',
     ingredients: ['Buttermilk', 'Cocoa powder', 'Pewarna merah', 'Cream cheese'],
     instructions: [
@@ -488,6 +621,7 @@ export const recipes: Recipe[] = [
     category: 'Cake',
     prepTime: '120 menit',
     difficulty: 'Sedang',
+    // Gambar slice kue keju polos padat
     image: 'https://images.unsplash.com/photo-1524351199679-46cddf330736?q=80&w=800',
     ingredients: ['Cream cheese', 'Gula pasir', 'Telur', 'Biskuit hancur'],
     instructions: [
@@ -506,6 +640,7 @@ export const recipes: Recipe[] = [
     category: 'Cake',
     prepTime: '120 menit',
     difficulty: 'Sedang',
+    // Gambar black forest dengan cherry
     image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800',
     ingredients: ['Cokelat bubuk', 'Ceri hitam', 'Whipping cream', 'Dark chocolate'],
     instructions: [
@@ -524,6 +659,7 @@ export const recipes: Recipe[] = [
     category: 'Cake',
     prepTime: '60 menit',
     difficulty: 'Mudah',
+    // Gambar layer sponge cake dengan krim strawberry
     image: 'https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=800',
     ingredients: ['Telur', 'Tepung terigu', 'Selai stroberi', 'Buttercream'],
     instructions: [
@@ -542,6 +678,7 @@ export const recipes: Recipe[] = [
     category: 'Cake',
     prepTime: '60 menit',
     difficulty: 'Mudah',
+    // Gambar carrot cake tebal
     image: 'https://images.unsplash.com/photo-1551829142-d9b812bb3d2f?q=80&w=800',
     ingredients: ['Parutan wortel', 'Kayu manis', 'Kacang kenari', 'Cream cheese'],
     instructions: [
@@ -551,5 +688,24 @@ export const recipes: Recipe[] = [
       'Frosting dengan cream cheese dan taburi kenari.'
     ],
     isFeatured: false
+  },
+  {
+    id: 'c6',
+    title: 'Glazed Lemon Pound Cake',
+    slug: 'lemon-pound-cake',
+    description: 'Bolu padat menyegarkan dari perasan sari lemon dan kulit lemon, dilumuri gula lemon glaze.',
+    category: 'Cake',
+    prepTime: '75 menit',
+    difficulty: 'Mudah',
+    // Gambar kue lemon kuning yang disiram gula cair putih
+    image: 'https://images.unsplash.com/photo-1601633512217-09d57a9f0e1d?q=80&w=800',
+    ingredients: ['Mentega', 'Tepung terigu', 'Kulit lemon parut (Zest)', 'Jus lemon segar', 'Gula halus'],
+    instructions: [
+      'Kocok mentega dan gula hingga sangat pucat dan mengembang.',
+      'Masukkan campuran telur dan tepung secara bergantian.',
+      'Tuang adonan ke loyang loaf memanjang, panggang sampai padat.',
+      'Sajikan dengan lumuran lemon glaze di atasnya.'
+    ],
+    isFeatured: true
   }
 ];
